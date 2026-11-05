@@ -26,3 +26,23 @@
 .brand-card p{font-size:13px;line-height:1.6;color:#aab8cc;margin:0;max-width:320px}
 .brand-arrow{position:absolute;right:18px;top:16px;color:#7bdcff;font-size:20px}
 @media(max-width:700px){.brand-identities{margin:72px auto}.brand-grid{grid-template-columns:1fr}.brand-card{min-height:150px;padding:16px;gap:16px}.brand-card img{width:88px;height:88px;flex-basis:88px}.brand-card h3{font-size:20px}}
+
+
+/* Official venture logos */
+.venture-brand-logo{
+  width:112px;height:112px;margin:26px 0 18px;
+  display:grid;place-items:center;overflow:hidden;
+  border:1px solid rgba(91,205,255,.38);border-radius:20px;
+  background:linear-gradient(145deg,rgba(15,30,53,.96),rgba(5,10,20,.96));
+  box-shadow:0 0 28px rgba(42,166,255,.12),inset 0 0 22px rgba(69,184,255,.06);
+}
+.venture-brand-logo img{
+  display:block;width:100%;height:100%;object-fit:contain;padding:9px;
+}
+.art-frame img{
+  display:block;width:100%;height:100%;object-fit:cover;object-position:center center;
+  border-radius:50%;
+}
+@media(max-width:700px){
+  .venture-brand-logo{width:88px;height:88px;margin:20px 0 14px}
+}
